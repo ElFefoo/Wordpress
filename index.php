@@ -3,21 +3,44 @@ get_header();
 ?>
 
 <!-- HERO CON PARALLAX -->
-<section class="hero" id="inicio">
+<section class="hero">
   <div class="hero-background">
     <div class="animated-shape shape-1"></div>
     <div class="animated-shape shape-2"></div>
     <div class="animated-shape shape-3"></div>
   </div>
-  <div class="hero-content">
-    <h1 class="hero-title fade-in">Asymmetric</h1>
-    <h2 class="hero-subtitle fade-in-delay-1">Asesorías técnicas, proyectos comerciales y arquitectura</h2>
-    <p class="hero-text fade-in-delay-2">Transformamos visiones en soluciones arquitectónicas con excelencia y rigor profesional</p>
-    <button class="cta-button fade-in-delay-3" onclick="document.getElementById('servicios').scrollIntoView({behavior:'smooth'})">
-      Descubre Nuestros Servicios
-    </button>
+  <div class="hero-content fade-in">
+    <h1 class="hero-title fade-in-up">ASYMMETRIC</h1>
+    <p class="hero-subtitle fade-in-delay-1">Consultoría estratégica y desarrollo digital para startups</p>
+    <p class="hero-text fade-in-delay-2">Transformamos ideas en productos escalables con tecnología de vanguardia</p>
+    <div class="hero-cta fade-in-delay-3">
+      <a href="#contacto" class="cta-button">Comienza tu proyecto</a>
+      <a href="#servicios" class="cta-secondary">Ver servicios</a>
+    </div>
   </div>
 </section>
+
+<section class="stats-section">
+  <div class="stats-container">
+    <div class="stat">
+      <div class="stat-number">50</div>
+      <div class="stat-label">Proyectos entregados</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">98</div>
+      <div class="stat-label">Satisfacción cliente</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">24</div>
+      <div class="stat-label">Respuesta inicial</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3</div>
+      <div class="stat-label">ROI promedio</div>
+    </div>
+  </div>
+</section>
+
 
 <!-- ESTADÍSTICAS CON CONTADOR -->
 <section class="stats-section">
