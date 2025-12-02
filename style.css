@@ -280,7 +280,7 @@ header { background: #fff; box-shadow: 0 2px 12px rgba(255, 140, 66, 0.08); posi
 .contact-form-wrapper .wpcf7-form {
   margin: 0;
 }
-/* card de mapa dentro de la columna izquierda */
+
 .contact-card--map {
   padding: 1rem;
 }
