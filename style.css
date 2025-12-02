@@ -239,6 +239,70 @@ header { background: #fff; box-shadow: 0 2px 12px rgba(255, 140, 66, 0.08); posi
 
 /* CONTACTO */
 .contacto-section { padding: 5rem 2rem; background: #fff; max-width: 1200px; margin: 0 auto; }
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.contact-card {
+  background: #fff7ec;
+  border-radius: 14px;
+  padding: 1.6rem 1.4rem;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.03);
+}
+
+.contact-icon {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+
+.contact-card h3 {
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 0.2rem;
+}
+
+.contact-card p {
+  font-size: 0.95rem;
+  color: var(--dark);
+}
+
+.contact-form-wrapper .wpcf7-form {
+  margin: 0;
+}
+/* card de mapa dentro de la columna izquierda */
+.contact-card--map {
+  padding: 1rem;
+}
+
+.contact-card--map h3 {
+  margin-bottom: 0.6rem;
+}
+
+.contact-card--map .contact-map {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+.contact-card--map iframe {
+  display: block;
+  width: 100%;
+  height: 180px;
+  border: 0;
+}
+
+
 .contact-wrapper { max-width: 600px; margin: 0 auto; }
 .wpcf7-form { width: 100%; background: var(--light); padding: 2.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(255,140,66,0.1); border-top: 4px solid var(--primary); }
 .wpcf7-form-control-wrap { margin-bottom: 1.5rem; animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
@@ -271,7 +335,6 @@ header { background: #fff; box-shadow: 0 2px 12px rgba(255, 140, 66, 0.08); posi
 .social-icons a:hover { transform: translateY(-8px) scale(1.1); border-color: var(--primary); box-shadow: 0 15px 40px rgba(255,140,66,0.5); background: rgba(255,140,66,0.2); }
 .social-icons a:hover::before { width: 200px; height: 200px; }
 .social-icons a:hover img {
-  /* quita invert(1) y deja solo un pequeño brillo si quieres */
   filter: brightness(1.2) contrast(1.1);
   transform: scale(1.1);
 }
@@ -331,6 +394,9 @@ header { background: #fff; box-shadow: 0 2px 12px rgba(255, 140, 66, 0.08); posi
   
   .project-modal__content { grid-template-columns: 1fr; max-height: 95vh; }
   .project-modal__image-wrapper { max-height: 45vh; }
+  .contact-layout {
+  grid-template-columns: 1fr;
+}
 }
 
 @media (max-width: 480px) {

@@ -210,10 +210,51 @@ get_header();
 <!-- CONTACTO -->
 <section id="contacto" class="contacto-section">
   <h2 class="section-title">Contáctanos</h2>
-  <div class="contact-wrapper fade-in">
-    <?php echo do_shortcode('[contact-form-7 id="ID_AQUI" title="Contacto Home"]'); ?>
+
+  <div class="contact-layout">
+    <!-- COLUMNA IZQUIERDA: TARJETAS -->
+    <div class="contact-cards">
+  <div class="contact-card">
+    <span class="contact-icon">📞</span>
+    <h3>Teléfono</h3>
+    <p>+56 9 1234 5678</p>
   </div>
+
+  <div class="contact-card">
+    <span class="contact-icon">💬</span>
+    <h3>WhatsApp</h3>
+    <p>+56 9 1234 5678</p>
+  </div>
+
+  <div class="contact-card">
+    <span class="contact-icon">✉️</span>
+    <h3>Email</h3>
+    <p>contacto@asymmetric.cl</p>
+  </div>
+
+  <!-- CARD DEL MAPA -->
+  <div class="contact-card contact-card--map">
+    <h3>Ubicación</h3>
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.007814265839!2d-70.61529491709466!3d-33.42304062750662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6607b5b51d%3A0x993fd025a01d826f!2sAsymmetric!5e0!3m2!1ses-419!2scl!4v1764643518700!5m2!1ses-419!2scl"
+              width="100%" height="180"
+              style="border:0;" allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+
+    <!-- COLUMNA DERECHA: FORMULARIO -->
+    <div class="contact-form-wrapper">
+      <?php echo do_shortcode('[contact-form-7 id="d8090c4" title="Formulario contacto"]'); ?>
+    </div>
+  </div>
+  
 </section>
+
+
 
 <!-- MODAL FLOTANTE DE PROYECTO -->
 <div id="project-modal" class="project-modal">
