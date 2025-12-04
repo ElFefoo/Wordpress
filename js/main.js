@@ -1,4 +1,4 @@
-// ===== ANIMACIONES AL SCROLL =====
+//ANIMACIONES AL SCROLL
 const observerOptions = {
   threshold: 0.1,
   rootMargin: '0px 0px -50px 0px'
@@ -21,7 +21,7 @@ document.querySelectorAll('.fade-in-up').forEach(el => {
   observer.observe(el);
 });
 
-// ===== CONTADOR DE ESTADÍSTICAS =====
+//CONTADOR DE ESTADÍSTICAS
 function animateCounter(element, target, duration = 2000) {
   let current = 0;
   const increment = target / (duration / 16);
@@ -50,7 +50,7 @@ document.querySelectorAll('.stat-number').forEach(stat => {
   observer.observe(stat);
 });
 
-// ===== FILTROS DE PORTAFOLIO =====
+//FILTROS DE PORTAFOLIO
 document.querySelectorAll('.filter-btn').forEach(button => {
   button.addEventListener('click', () => {
     document.querySelectorAll('.filter-btn').forEach(btn => {
@@ -75,7 +75,7 @@ document.querySelectorAll('.filter-btn').forEach(button => {
   });
 });
 
-// ===== SMOOTH SCROLL PARA LINKS INTERNOS =====
+//SMOOTH SCROLL
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     const href = this.getAttribute('href');
@@ -89,14 +89,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// ===== EFECTOS DE HOVER EN TARJETAS =====
+//EFECTOS DE HOVER
 document.querySelectorAll('.service-card, .team-member, .portfolio-item').forEach(card => {
   card.addEventListener('mouseenter', function() {
     this.style.transition = 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)';
   });
 });
 
-// ===== NAVBAR ACTIVA AL SCROLL =====
+//NAVBAR 
 window.addEventListener('scroll', () => {
   document.querySelectorAll('.nav-list a').forEach(link => {
     const section = document.querySelector(link.getAttribute('href'));
@@ -110,7 +110,7 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// ===== MODAL DE PROYECTO + CARRUSEL =====
+//MODAL DE PROYECTO
 document.addEventListener('DOMContentLoaded', function () {
   const modal = document.getElementById('project-modal');
   if (!modal) return;
@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// NAV RESPONSIVA (HAMBURGUESA)
+//HAMBURGUESA
 document.addEventListener('DOMContentLoaded', function () {
   const toggle = document.querySelector('.nav-toggle');
   const navList = document.querySelector('.nav-list');

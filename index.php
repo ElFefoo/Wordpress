@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<!-- HERO CON PARALLAX -->
+<!-- HERO-->
 <section class="hero" id="inicio">
   <div class="hero-background">
     <div class="animated-shape shape-1"></div>
@@ -45,7 +45,7 @@ get_header();
   </div>
 </section>
 
-<!-- PORTAFOLIO CON FILTROS Y LIGHTBOX -->
+<!-- PORTAFOLIO CON FILTROS -->
 <section id="portafolio" class="portafolio-section">
   <h2 class="section-title">Portafolio Destacado</h2>
   
@@ -77,7 +77,6 @@ get_header();
         $tipo = get_field('tipo') ? get_field('tipo') : '';
         $desc = get_field('descripcion') ? get_field('descripcion') : '';
         
-        // Generar slug para filtro basado en categoria
         $slug_tipo = 'all';
         if ($categoria) {
           $categoria_lower = strtolower(trim($categoria));
@@ -141,7 +140,6 @@ get_header();
   </div>
 </section>
 
-<!-- EQUIPO CON EFECTOS HOVER -->
 <!-- EQUIPO CON EFECTOS HOVER -->
 <section id="equipo" class="equipo-section">
   <h2 class="section-title">Nuestro Equipo</h2>
@@ -212,7 +210,7 @@ get_header();
   <h2 class="section-title">Contáctanos</h2>
 
   <div class="contact-layout">
-    <!-- COLUMNA IZQUIERDA: TARJETAS -->
+    <!--TARJETAS -->
     <div class="contact-cards">
   <div class="contact-card">
     <span class="contact-icon">📞</span>
@@ -246,7 +244,7 @@ get_header();
 </div>
 
 
-    <!-- COLUMNA DERECHA: FORMULARIO -->
+    <!--FORMULARIO -->
     <div class="contact-form-wrapper">
       <?php echo do_shortcode('[contact-form-7 id="d8090c4" title="Formulario contacto"]'); ?>
     </div>
