@@ -9,7 +9,7 @@
     </div>
   </div>
   <div class="social-icons">
-    <a href="https://wa.me/56912345678?text=Hola%20Asymmetric,%20quisiera%20una%20asesoría" target="_blank" aria-label="WhatsApp">
+    <a href="https://wa.me/56977602860?text=Hola%20Asymmetric,%20quisiera%20una%20asesoría" target="_blank" aria-label="WhatsApp">
       <img src="<?php echo get_template_directory_uri(); ?>/images/icons/whatsapp.svg" alt="WhatsApp">
     </a>
     <a href="https://www.instagram.com/asymmetriclimitada" target="_blank" aria-label="Instagram">

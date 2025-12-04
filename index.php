@@ -217,19 +217,19 @@ get_header();
   <div class="contact-card">
     <span class="contact-icon">📞</span>
     <h3>Teléfono</h3>
-    <p>+56 9 1234 5678</p>
+    <p>+56 9 7760 2860</p>
   </div>
 
   <div class="contact-card">
     <span class="contact-icon">💬</span>
     <h3>WhatsApp</h3>
-    <p>+56 9 1234 5678</p>
+    <p>+56 9 7760 2860</p>
   </div>
 
   <div class="contact-card">
     <span class="contact-icon">✉️</span>
     <h3>Email</h3>
-    <p>contacto@asymmetric.cl</p>
+    <p>contacto@asymmetric-chile.cl</p>
   </div>
 
   <!-- CARD DEL MAPA -->
